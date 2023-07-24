@@ -3,6 +3,7 @@ import './App.css';
 
 // import { EntryPage } from "./page/entry/entry.page";
 import { DefaultLayout } from "./Layout/defaultLayout";
+import { Dashboard } from "./page/dashboard/dashboard.page";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
   {/* <EntryPage/>    */}
       <DefaultLayout>
-        //Dashboard
+        <Dashboard />
       </DefaultLayout>
     </div>
     </>
